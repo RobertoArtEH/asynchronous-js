@@ -4,7 +4,8 @@
   "description": "Async JavaScript application.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/index.js",
+    "callback-challenge": "node src/callback/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/RobertoArtEH/rickandmorty-api/issues"
   },
-  "homepage": "https://github.com/RobertoArtEH/rickandmorty-api#readme"
+  "homepage": "https://github.com/RobertoArtEH/rickandmorty-api#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
